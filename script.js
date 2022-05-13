@@ -60,9 +60,11 @@ let aparecer = document.getElementById("comofunciona")
 
 function ape(){
 
-    aparecer.innerHTML = `<div class="ss"><p><strong>Carne</strong> = 500g por pessoa, se a duração for maior que 6 horas = 750g por pessoa;<br>
+    aparecer.innerHTML = `<div class="ss">
+    <p><strong>Carne</strong> = 500g por pessoa, se a duração for maior que 6 horas = 750g por pessoa;<br>
     <strong>Cerveja</strong> = 6Latas por pessoa, se a duração for maior que 6 horas = 8Latas por pessoa;<br>
     <strong>Refrigerante ou Agua</strong> = 500 ml por pessoa, se a duração for maior que 6 horas = 1Litro por pessoa;<br>
-    <strong>Crianças os parâmetros são metade dos adultos 1/2;</strong></p></div>`
+    <strong>Crianças os parâmetros são metade dos adultos 1/2;</strong></p>
+    </div>`
 
 }
